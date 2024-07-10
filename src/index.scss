@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+	ul{
+display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		li{
+		margin-right: 24px;
+		list-style: none;
+		a{
+				padding: 12px;
+				font-size: 20px;
+				font-weight: 800;
+				transition: all ease-in-out 0.3s;
+				text-decoration: none;
+				&:hover{
+	color: rgb(255, 0, 85);
+	border-bottom: 1px solid rgb(132, 121, 175);
+}	
+}
+}
+}
+}
+a:hover{
+	color: rgb(255, 0, 85);
+	border-bottom: 1px solid rgb(132, 121, 175);}
+main {
+	
+	
+	margin-top: 140px;
+}
+
+footer {
+	width: 100%;
+	background-color: #111;
+	color: #eee;
+	position: fixed;
+	bottom: 0;
+	padding: 32px;
+	text-align: center;
+}
+
+form {
+	width: 600px;
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+	padding: 32px 48px;
+	margin: 0 auto;
+}
+.cart{
+	width: 100%;
+	height: 450px;
+}
+button{
+	width: 100%;
+	height: 50px;
+}
+
+tbody button{
+	margin: 15px 0;
+}
+	
